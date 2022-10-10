@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slambook</title>
+	<link rel="stylesheet"href="style.css">
+	<script src="https://kit.fontawesome.com/a9cd41899a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav>
+		<div class="nav-left">
+		   <img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\Initial_Fashion_Logo1-removebg-preview (1).png"class="logo">
+		  <ul>
+		   <li><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\notification.png"></li>
+		   <li><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\inbox.png"></li>
+		   <li><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\video.png"></li>
+		  </ul>
+	</div>
+	<div class="nav-right">
+		<div class="search-box">
+			<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\search.png">
+			<input type="text"placeholder="search">			
+		</div>
+		<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+			<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">			
+		</div>
+		<!---------settings menu------------->
+    <div class="settings-menu">
+    	<div id="dark-btn">
+    		<span></span>
+    	</div>
+    	<div class="settings-menu-inner">
+    		<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<a href="#">See your profile</a>
+					</div>					
+				</div>
+				<hr>
+				<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\Feedback.png">
+					<div>
+						<p>Give Feedback</p>
+						<a href="#">Help us to improve the new design</a>
+					</div>					
+				</div>
+				<hr>
+				<div class="settings-links">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\setting.png" class="settings-icon">
+					<a href="#">Settings & Privacy <img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\arrow.png"width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\help.png"class="settings-icon">
+					<a href="#">Help & Support <img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\arrow.png"width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\display.png" class="settings-icon">
+					<a href="#">Display & Accessibility<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\arrow.png"width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\logout.png"class="settings-icon">
+					<a href="#">Logout<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\arrow.png"width="10px"></a>
+				</div>
+    	</div>    	
+    </div>
+	</nav>
+	<div class="container">
+		<div class="left-sidebar">
+			<div class="imp-links">
+			 <a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\news.png">News</a>
+			 <a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\friends.png">Friends</a>
+			 <a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\group.png">Group</a>
+			 <a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\marketplace.png">Marketplace</a>
+			 <a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\watch.png">Watch</a>
+			 <a href="#">More</a>					
+		</div>
+		
+		<div class="shortcut-links">
+			<p>Your Shortcuts</p>
+			<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\shortcut-1.png"> Web Developer</a>
+			<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\shortcut-2.png"> Web Design</a>
+			<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\shortcut-3.png"> Full Stack Developement</a>
+			<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\shortcut-4.png"> website Expert</a>
+			</div>
+		</div>
+
+
+		<div class="main-content">
+			<div class="story-gallery">
+				<div class="story story1">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\upload.png">
+					<p>Post Story</p>
+				</div>
+				<div class="story story2">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-1.png">
+					<p>Alison</p>
+				</div>
+				<div class="story story3">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-2.png">
+					<p>Jackson</p>
+				</div>
+				<div class="story story4">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-3.png">
+					<p>Samona</p>
+				</div>
+				<div class="story story5">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-4.png">
+					<p>Jon Doe</p>
+				</div>
+			</div>
+			<div class="write-post-container">
+				<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<small>Public <i class="fas fa-caret-down"></i></small>
+					</div>					
+				</div>
+				<div class="post-input-container">
+					<textarea rows="3" placeholder="What's on your mind,Shivaay"></textarea>
+					<div class="add-post-links">
+						<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\live-video.png"> Live Video</a>
+						<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\photo.png"> Photo Video</a>
+						<a href="#"><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\feeling.png"> Feeling/Activity</a>
+					</div>
+				</div>
+			</div>
+			<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<span>June 24 2021, 13:40 PM</span>
+					</div>					
+				</div>
+				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+			</div>				
+				<p class="post-text">Positive thinking will let you do everything better than negative thinking will.</p>
+				<img src="C:\Users\SHIVANSHU MISHRA\Desktop\shivaay\utkarsh birthday\20211125_184939.jpg" class="post-img">
+				
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\like-blue.png">120</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\comments.png">40</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\share.png">20</div>						
+					</div>
+
+					<div class="post-profile-icon">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png"> <i class="fas fa-caret-down"></i>
+			
+			</div>
+		</div>
+	</div>
+	<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<span>July 30 2021, 06:30 AM</span>
+					</div>					
+				</div>
+				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+			</div>				
+				<p class="post-text">No one is perfect that’s why pencils have erasers.</p>
+				<img src="C:\Users\SHIVANSHU MISHRA\Desktop\shivaay\utkarsh birthday\PicsArt_11-26-01.27.53.jpg" class="post-img">
+				
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\like.png">220</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\comments.png">80</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\share.png">50</div>						
+					</div>
+
+					<div class="post-profile-icon">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png"> <i class="fas fa-caret-down"></i>
+			
+			</div>
+		</div>
+	</div>
+	<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<span>November 10 2021, 10:30 PM</span>
+					</div>					
+				</div>
+				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+			</div>				
+				<p class="post-text">In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a positive impact.</p>
+				<img src="C:\Users\SHIVANSHU MISHRA\Desktop\shivaay\utkarsh birthday\20211124_233358-01.jpeg" class="post-img">
+				
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\like.png">90</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\comments.png">30</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\share.png">5</div>						
+					</div>
+
+					<div class="post-profile-icon">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png"> <i class="fas fa-caret-down"></i>
+			
+			</div>
+		</div>
+	</div>
+	<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<span>November 15 2021, 7:30 PM</span>
+					</div>					
+				</div>
+				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+			</div>				
+				<p class="post-text">Virtually nothing is impossible in this world if you just put your mind to it and maintain a positive attitude.</p>
+				<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\feed-image-4.png"class="post-img">
+				
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\like.png">160</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\comments.png">60</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\share.png">15</div>						
+					</div>
+
+					<div class="post-profile-icon">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png"> <i class="fas fa-caret-down"></i>
+			
+			</div>
+		</div>
+	</div>
+		<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png">
+					<div>
+						<p>Shivaay Mishra</p>
+						<span>November 25 2021, 9:30 PM</span>
+					</div>					
+				</div>
+				<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+			</div>				
+				<p class="post-text">Optimism is a happiness magnet.If you stay positive good things and good people will be drawn to you</p>
+				<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\feed-image-5.png"class="post-img">
+				
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\like.png">160</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\comments.png">60</div>
+						<div><img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\share.png">15</div>						
+					</div>
+
+					<div class="post-profile-icon">
+					<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\profile-pic.png"> <i class="fas fa-caret-down"></i>			
+			</div>
+		</div>
+	</div>
+	<button type="button" class="load-more-btn">Load More</button>
+       </div>
+		<div class="right-sidebar">	
+				<div class="sidebar-title">
+					<h4>Event</h4>
+					<a href="#">See All</a>
+		       </div>
+		       <div class="event">
+		       	<div class="left-event">
+		       		<h3>18<h3>
+		       		<span>March</span>
+		       </div>
+		       <div class="right-event">
+		       	<h4>Social Media</h4>
+		       	<p><i class="fas fa-map-marker-alt"></i>Shivaay Mishra</p>
+		       	<a href="#">More Info</a>
+		       </div>
+		  </div>	
+		  <div class="event">
+		       	<div class="left-event">
+		       		<h3>22<h3>
+		       		<span>June</span>
+		       </div>
+		       <div class="right-event">
+		       	<h4>Marketing</h4>
+		       	<p><i class="fas fa-map-marker-alt"></i>Shivaay Mishra</p>
+		       	<a href="#">More Info</a>
+		       </div>
+		  </div>
+		  <div class="sidebar-title">
+					<h4>Advertisement</h4>
+					<a href="#">Close</a>
+		       </div>
+		       <img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\advertisement.png" class="sidebar-ads">
+
+		       <div class="sidebar-title">
+					<h4>Conversation</h4>
+					<a href="#">Hide Chat</a>
+		       </div>
+
+		       <div class="online-list">
+		       	<div class="online">
+		       		<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-1.png">
+		       	</div>
+		       	<p>Alia</p>
+		       </div>
+		        <div class="online-list">
+		       	<div class="online">
+		       		<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-2.png">
+		       	</div>
+		       	<p>Utkarsh</p>
+		       </div>
+		       <div class="online-list">
+		       	<div class="online">
+		       		<img src="C:\Users\SHIVANSHU MISHRA\Desktop\app\images\member-3.png">
+		       	</div>
+		       	<p>Rose</p>
+		       </div>	  
+	       </div>
+	     </div>
+	       <div class="footer">
+	       	<p>Copyright 2021-Shivanshu Mishra</p>
+	       	
+	       </div>
+	       <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
